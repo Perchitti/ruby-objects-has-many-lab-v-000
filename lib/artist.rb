@@ -17,9 +17,8 @@ def songs
 end
 
 def add_song_by_name(song_name)
-  song_name.each do |songs|
-    songs.song.artist
-end
+  song = Song.new(song_name)
+  @songs << songsong.artist = self
 end
 
 end
