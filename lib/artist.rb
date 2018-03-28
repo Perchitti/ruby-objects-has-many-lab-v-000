@@ -20,5 +20,6 @@ def add_song_by_name(song_name)
   song_name.each do |songs|
     songs.song.artist
 end
+end
 
 end
